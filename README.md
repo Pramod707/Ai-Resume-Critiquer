@@ -6,7 +6,7 @@ Users can upload a resume in PDF or TXT format and receive AI-generated feedback
 
 ## Screenshot
 
-![AI Resume Critiquer UI](assets/image.png)
+![AI Resume Critiquer UI](screenshots/image.png)
 
 
 ## Features
