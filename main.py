@@ -16,7 +16,13 @@ st.set_page_config(
 st.title("AI RESUME CRITIQUER")
 st.markdown("Upload your Resume and get AI-generated critiques.")
 
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+# GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+load_dotenv()
+
+GOOGLE_API_KEY = (
+    st.secrets.get("GOOGLE_API_KEY")
+    or os.getenv("GOOGLE_API_KEY")
+)
 
 uploaded_file = st.file_uploader("Upload your resume(PDF OR TXT)", type=["pdf", "txt"])
 
