@@ -3,6 +3,9 @@
 An AI-powered resume analysis tool built with Python, Streamlit, and Google's Gemini API.
 
 Users can upload a resume in PDF or TXT format and receive AI-generated feedback on content quality, skills presentation, experience descriptions, and overall effectiveness for job applications.
+## Live Demo
+
+🚀 https://pramod707-ai-resume-critiquer-main-429zni.streamlit.app/
 
 ## Screenshot
 
